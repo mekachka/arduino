@@ -1,9 +1,7 @@
-package com.company;
-
 import java.util.Arrays;  //для работы с массивами
 import java.util.Scanner;  //для считывания ввода
 
-class main  //объявляем класс
+class main  
 {
     public static float getMedianOfNumber(int[] arrayForFindingTheMedianOfNumber)  //метод для нахождения медианы чисел, параметром является массив
     {
@@ -11,9 +9,9 @@ class main  //объявляем класс
         return ((arrayForFindingTheMedianOfNumber[arrayForFindingTheMedianOfNumber.length / 2] + arrayForFindingTheMedianOfNumber[arrayForFindingTheMedianOfNumber.length / 2 - 1]) / 2f);
     }
 
-    public static void main(String[] args)  //основной метод программы
+    public static void main(String[] args)  
     {
-        Scanner input = new Scanner(System.in);  //создаём "магию" ввода
+        Scanner input = new Scanner(System.in); 
         int size =6;
         int[] arrayNumber = new int[size];  //создаём целочисленный массив длиной равной количеству элементов
         for (int i = 0; i < size; i++)  //циклом заполняем все элементы массива
