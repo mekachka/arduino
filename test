@@ -29,7 +29,7 @@ void loop() {
   cm8 = duration / 58;
   cm9 = duration / 58;
   cm10 = duration / 58;
-  delay(1000);
+  delay(100);
   int arr[11] = { cm , cm1 , cm2 , cm3, cm4, cm5, cm6, cm7, cm8, cm9, cm10 };
   int temp;
   for (int i = 0; i <= 11; i++) {
